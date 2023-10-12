@@ -1,0 +1,22 @@
+<script>
+ <script>
+    document.addEventListener("DOMContentLoaded", function () {
+        // Crie um elemento de imagem
+        var imagem = document.createElement("img");
+        imagem.setAttribute("loading", "lazy");
+        imagem.setAttribute("src", "https://cdn.dooca.store/137492/files/banner-teste-voices.jpg?v=1695926309");
+        imagem.setAttribute("alt", "banner-teste-voices");
+        imagem.style.width = "100%";
+
+        // Encontre todos os elementos com a classe "col-6 col-sm-6 col-md-4 col-lg-4 mb-4"
+        var divs = document.querySelectorAll('.col-6.col-sm-6.col-md-4.col-lg-4.mb-4');
+
+        // Verifique se há pelo menos três divs para inserir a imagem na terceira
+        if (divs.length >= 3) {
+            // Insira a imagem na terceira div
+            divs[2].appendChild(imagem);
+        }
+    });
+</script>
+
+</script>

@@ -1,0 +1,118 @@
+.header-bottom {
+    border-bottom: solid 1px var(--color-border);
+    }
+    .product-card {
+            position: relative;
+            overflow: hidden;
+          }
+          
+          .product-card:hover {
+            box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.2);
+            transform: scale(1.02);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+          }
+          
+          .product-card img {
+            max-width: 100%;
+            height: auto;
+          }
+    
+    
+          
+    .navigation-link:hover {
+            color: #C9926E; /* Cor do texto ao passar o mouse */  
+}
+    
+    .menu-dropdown-col a:hover {
+        color: #C9926E; /* Cor do texto ao passar o mouse */
+    }
+   
+
+.menu-dropdown-col {
+    margin-right: 80px; /* Ajuste o valor conforme necessário */
+}
+
+.menu-dropdown-banner {
+        background-color: #F4EEE8;
+    }
+
+
+  .navigation-item a span {
+        letter-spacing: 2px; /* Ajuste o valor para controlar o espaçamento entre as letras */
+    }
+
+
+
+
+/* Aumentar o espaçamento entre a imagem e o texto em dispositivos móveis */
+@media (max-width: 767px) {
+    .col-sm-12 .image-text-content {
+        margin-top: 60px; /* Adicione uma margem superior conforme necessário */
+        margin-bottom: 0px; /* Adicione uma margem inferior conforme necessário */
+    }
+}
+
+
+/* Estilo inicial (preto e branco) */
+#banners-759892211 .banner  {
+    filter: grayscale(100%);
+    transition: filter 0.1s ease;
+}
+
+/* Estilo ao passar o mouse (cor original) */
+#banners-759892211 .banner:hover  {
+    filter: grayscale(0%);
+}
+
+
+.img-fluid.mb-3 {
+	width: 65px;
+	height: 65px;
+}
+
+@media (max-width: 767px) {
+    .img-fluid.mb-3 {
+        width: 50px;
+        height: 50px;
+    }
+}
+
+
+/* Estilo padrão para os links da lista */
+.footer-navigation a {
+  display: block;
+  text-align: left;
+  margin-bottom: 2px;
+  color: #000; /* Cor padrão do texto */
+  transition: transform 0.3s ease, color 0.3s ease; /* Transições suaves para transformação e cor */
+}
+
+/* Estilo de hover para os links da lista */
+.footer-navigation a:hover {
+  transform: translateX(10px); /* Desloca o elemento 10px à direita */
+  color: #C9926E; /* Muda a cor do texto para vermelho */
+}
+
+
+
+ 
+/* Estilos para dispositivos móveis com largura de tela menor que 768px */
+@media (max-width: 767px) {
+    /* Reduza o tamanho do texto */
+    h3 {
+        font-size: 14px; /* Tamanho de fonte menor para h3 */
+    }
+    p.text {
+        font-size: 12px; /* Tamanho de fonte menor para p com classe "text" */
+    }
+}
+
+ @media (max-width: 768px) {
+        .h2 {
+            font-size: 12px; /* Tamanho de fonte menor para dispositivos móveis *
+  }
+
+.p {
+font-size: 5px;
+}
+    }

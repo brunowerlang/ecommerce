@@ -1,95 +1,114 @@
-<style>
-    @media (max-width: 768px) { /* Ajuste a largura máxima de acordo com o que você considera como dispositivo móvel */
-        .rotativo-texto {
-            animation: scrollText 10s linear infinite; /* Ajuste a duração para uma velocidade mais rápida em dispositivos móveis */
-        }
+<section class="section section--html">
+
+    <div id="html-367139039">
+        <div class="meu-banner-rotativo">
+      <div class="meu-banner-rotativo-texto">
+        <span> <strong>| |</strong></span>
+          <span>Frase destaque condição comercial</strong></span>
+        <span> <strong>| |</strong></span>
+          <span>Frase destaque condição comercial</strong></span>
+        <span> <strong>| |</strong></span>
+        <span>Frase destaque condição comercial</strong></span>
+        <span> <strong>| |</strong></span>
+        <span>Frase destaque condição comercial</strong></span>
+        <span> <strong>| |</strong></span>
+        <span>Frase destaque condição comercial</strong></span>
+        <span> <strong>| |</strong></span>
+        <span>Frase destaque condição comercial</strong></span>
+        <span> <strong>| |</strong></span>
+        <span>Frase destaque condição comercial</strong></span>
+        <span> <strong>| |</strong></span>
+        <span>Frase destaque condição comercial</strong></span>
+        <span> <strong>| |</strong></span>
+        <span>Frase destaque condição comercial</strong></span>
+        <span> <strong>| |</strong></span>
+        <span>Frase destaque condição comercial</strong></span>
+        <span> <strong>| |</strong></span>
+        <span>Frase destaque condição comercial</strong></span>
+        <span> <strong>| |</strong></span>
+        <span>Frase destaque condição comercial</strong></span>
+        <span> <strong>| |</strong></span>
+        <span>Frase destaque condição comercial</strong></span>
+        <span> <strong>| |</strong></span>
+        <span>Frase destaque condição comercial</strong></span>
+        <span> <strong>| |</strong></span>
+        <span>Frase destaque condição comercial</strong></span>
+        <span> <strong>| |</strong></span>
+        <span>Frase destaque condição comercial</strong></span>
+        <span> <strong>| |</strong></span>
+        <span>Frase destaque condição comercial</strong></span>
+        <span> <strong>| |</strong></span>
+        <span>Frase destaque condição comercial</strong></span>
+        <span> <strong>| |</strong></span>
+        <span>Frase destaque condição comercial</strong></span>
+        <span> <strong>| |</strong></span>
+        <span>Frase destaque condição comercial</strong></span>
+        <span> <strong>| |</strong></span>
+        <span>Frase destaque condição comercial</strong></span>
+        <span> <strong>| |</strong></span>
+        <span>Frase destaque condição comercial</strong></span>
+        <span> <strong>| |</strong></span>
+        <span>Frase destaque condição comercial</strong></span>
+        <span> <strong>| |</strong></span>
+        <span>Frase destaque condição comercial</strong></span>
+        <span> <strong>| |</strong></span>
+        <span>Frase destaque condição comercial</strong></span>
+        <span> <strong>| |</strong></span>
+        
+        
+     
+      </div>
+    </div>
+    
+    <style>
+    .meu-banner-rotativo {
+      width: 100%;
+      height: 50px;
+      background-color: black;
+      overflow: hidden;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      font-family: Montserrat, sans-serif;
+      font-weight: 500;
+      font-size: 15px;
+      white-space: nowrap;
     }
-    .rotativo {
-        background-color: #C9926E;
-        color: #fff;
-        text-align: center;
-        padding: 10px 0;
-        position: relative;
-        overflow: hidden; /* Oculta o overflow do conteúdo fora da faixa */
+    .meu-banner-rotativo-texto {
+      position: relative;
+      top: 30%;
+      left: 3%;
+      transform: translate(-50%, -50%);
+      text-align: left;
+      display: flex;
+      align-items: center;
+      animation: meu-banner-rotativo-animacao 30s linear infinite;
     }
     
-    .rotativo-texto {
-        white-space: nowrap; /* Impede que o texto quebre em várias linhas */
-        width: 100%; /* Garante que o texto ocupe toda a largura da faixa */
-        display: flex; /* Use flex para alinhar frases verticalmente */
-        gap: 20px; /* Adicione espaço entre as frases */
-        animation: scrollText 20s linear infinite; /* Ajuste a duração para 20 segundos (ou o que preferir) */
+    .meu-banner-rotativo-texto span {
+      color: white;
+      padding-right: 40px;
+    }
+    .banner-rotativo-texto span:last-child {
+      padding-right: 0;
     }
     
-    .phrase {
-        display: inline-block;
-        padding: 0 20px; /* Espaçamento dentro de cada frase */
+    .meu-banner-rotativo-texto span strong {
+      font-weight: 800;
     }
     
-    @keyframes scrollText {
-        100% {
-            transform: translateX(100%); /* Começa fora da faixa à direita */
-        }
-        100% {
-            transform: translateX(-100%); /* Move-se completamente para a esquerda da faixa */
-        }
+    @keyframes meu-banner-rotativo-animacao {
+      0% {
+        transform: translateX(0);
+      }
+      100% {
+        transform: translateX(-100%);
+      }
     }
     
     
     </style>
-        <div class="rotativo">
-            <div class="rotativo-texto">
-                <span class="phrase">DESCONTO DE 5%: USE O CUPOM 1COMPRASANTI</span>
-                <span><strong>| |</strong></span>
-                <span class="phrase">FRETE GRÁTIS NAS COMPRAS ACIMA DE R$ 399</span>
-                <span><strong>| |</strong></span>
-                <span class="phrase">PARCELE EM ATÉ 3X SEM JUROS</span>
-                <span><strong>| |</strong></span>
-                <span class="phrase">DESCONTO DE 5%: USE O CUPOM 1COMPRASANTI</span>
-                <span><strong>| |</strong></span>
-                <span class="phrase">FRETE GRÁTIS NAS COMPRAS ACIMA DE R$ 399</span>
-                <span><strong>| |</strong></span>
-                <span class="phrase">PARCELE EM ATÉ 3X SEM JUROS</span>
-                <span><strong>| |</strong></span>
-                <span class="phrase">DESCONTO DE 5%: USE O CUPOM 1COMPRASANTI</span>
-                <span><strong>| |</strong></span>
-                <span class="phrase">FRETE GRÁTIS NAS COMPRAS ACIMA DE R$ 399</span>
-                <span><strong>| |</strong></span>
-                <span class="phrase">PARCELE EM ATÉ 3X SEM JUROS</span>
-                <span><strong>| |</strong></span>
-                <span class="phrase">DESCONTO DE 5%: USE O CUPOM 1COMPRASANTI</span>
-                <span><strong>| |</strong></span>
-                <span class="phrase">FRETE GRÁTIS NAS COMPRAS ACIMA DE R$ 399</span>
-                <span><strong>| |</strong></span>
-                <span class="phrase">PARCELE EM ATÉ 3X SEM JUROS</span>
-                <span><strong>| |</strong></span>
-                <span class="phrase">DESCONTO DE 5%: USE O CUPOM 1COMPRASANTI</span>
-                <span><strong>| |</strong></span>
-                <span class="phrase">FRETE GRÁTIS NAS COMPRAS ACIMA DE R$ 399</span>
-                <span><strong>| |</strong></span>
-                <span class="phrase">PARCELE EM ATÉ 3X SEM JUROS</span>
-                <span><strong>| |</strong></span>
-                <span class="phrase">DESCONTO DE 5%: USE O CUPOM 1COMPRASANTI</span>
-                <span><strong>| |</strong></span>
-                <span class="phrase">FRETE GRÁTIS NAS COMPRAS ACIMA DE R$ 399</span>
-                <span><strong>| |</strong></span>
-                <span class="phrase">PARCELE EM ATÉ 3X SEM JUROS</span>
-                <span><strong>| |</strong></span>
-                <span class="phrase">DESCONTO DE 5%: USE O CUPOM 1COMPRASANTI</span>
-                <span><strong>| |</strong></span>
-                <span class="phrase">FRETE GRÁTIS NAS COMPRAS ACIMA DE R$ 399</span>
-                <span><strong>| |</strong></span>
-                <span class="phrase">PARCELE EM ATÉ 3X SEM JUROS</span>
-                <span><strong>| |</strong></span>
-                <span class="phrase">DESCONTO DE 5%: USE O CUPOM 1COMPRASANTI</span>
-                <span><strong>| |</strong></span>
-                <span class="phrase">FRETE GRÁTIS NAS COMPRAS ACIMA DE R$ 399</span>
-                <span><strong>| |</strong></span>
-                <span class="phrase">PARCELE EM ATÉ 3X SEM JUROS</span>
-                <span><strong>| |</strong></span>
-            </div>
-        </div>
     
+    </div>
     
-    
-    
+    </section>

@@ -1,0 +1,36 @@
+.header.header-4.no-logo-padding, .header.header-3.no-logo-padding {
+  padding: 0;
+}
+
+
+.navigation-item span {
+      position: relative;
+      text-decoration: none;
+    }
+    
+    .navigation-item span::after {
+      content: "";
+      position: absolute;
+      bottom: -7px;
+      width: 0%;
+      height: 3px;
+      border-radius: 10px;
+      background-color: #e088d3;
+      transition: width 0.23s ease-in-out;
+    }
+  
+  
+    .navigation-item span:hover::after {
+      width: 80%;
+    }
+
+  .product-card {
+  position: relative;
+  overflow: hidden;
+}
+.product-card:hover {
+  box-shadow: 2px 2px 10px #000;
+  
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  
+}

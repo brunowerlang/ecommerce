@@ -1,0 +1,425 @@
+.header-bottom {
+    border-bottom: solid 1px var(--color-border);
+    }
+    
+    .menu-dropdown-link:hover::after {
+      content: "";
+      display: inline-block;
+      width: 18px; 
+      height: 18px; 
+      background-image: url('https://cdn.dooca.store/141811/files/7g8rjxsefmc3m6x1hakf5jrj4qivtulrdryj.png?v=1696177419');
+      background-size: contain;
+      background-repeat: no-repeat;
+      margin-left: 15px; /* Espaçamento à esquerda para centralizar o ícone */
+      vertical-align: middle; /* Alinhar verticalmente com o texto */
+      margin-top: -3px; 
+    }
+
+
+
+
+
+@media screen and (min-width: 1024px) {
+.image-hyllua
+.banner-bg {
+    background-image: url(https://cdn.dooca.store/141811/files/sobre-hyllua-1.jpg?v=1696181921);
+    background-size: 80%;
+   
+}
+        
+     .header {
+        justify-content: flex-start;
+      }
+    
+    
+   
+    
+    
+    .header .row {
+        justify-content: start !important;
+    
+      }
+    
+      .header .row.no-gutters.justify-content-end {
+        flex-wrap: nowrap !important;
+    }
+    
+ 
+    
+    
+    .d-none.d-lg-block.logo {
+        text-align: left !important; 
+        padding-left: 7.5px; 
+    }
+    
+    .header .col-2 {
+        -webkit-flex: 0 0 10%;
+        -moz-box-flex: 0;
+        flex: 0 0 10%;
+        max-width: 10%;
+    }
+
+.row.justify-content-between.align-items-center.pl-3.pr-3 {
+
+    justify-content: center !important;
+}
+
+.mt-5.d-flex.justify-content-center.align-items-center {
+
+    margin-top: 0rem !important;
+}
+.row.justify-content-center.p-5.position-relative {
+    padding: 0 3rem !important;
+}
+.header .col {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.menu-dropdown-container {
+    flex-wrap: wrap !important;
+}
+
+.menu-dropdown-item {
+ 
+    display: block !important;
+    flex: none !important;
+}
+}
+
+.banner-diminuir-desktop  
+.product-card {
+    max-width: 50%; 
+margin: 0 auto;
+   }
+
+    
+@media only screen and (max-width: 769px) {
+.banner-diminuir-mobile  
+.product-card {
+        width: 65%;
+margin: 3rem auto !important;
+   }
+
+}
+
+
+@media (min-width: 1024px) {
+.desktop-image
+.col-md-6 img{
+        width: 80%;
+}  }
+
+
+
+.review-description.mb-5 
+{
+    text-align: justify !important;
+
+}
+
+.banner-diminuir-desktop .product-card {
+    max-width: 50%;
+    margin: 0 auto;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    transform-origin: center bottom;
+}
+
+.banner-diminuir-desktop .product-card:hover {
+transform: scale(1.05); 
+}
+
+
+@media only screen and (max-width: 769px) {
+.padding-off
+.row.justify-content-center.p-5.position-relative {
+padding: 0 !important;
+}
+.padding-off
+.h1 
+{
+padding-top: 10px !important;
+}
+
+.padding-off
+.col-sm-1. col-md-6.col-lg-6{
+padding: 0 !important;
+}
+
+.padding-off
+.pl-4, .px-4 {
+    padding-left: 3rem !important;
+}
+.padding-off
+.pr-4, .px-4 {
+    padding-right: 3rem !important;
+}
+
+.image-text-content {
+text-align: justify !important;
+}
+}
+
+
+.image-text-content {
+text-align: justify !important;
+}
+
+
+.product-card {
+    
+    transition: transform 0.3s ease;
+
+}
+
+.product-card:hover {
+    transform: scale(1.05);
+border: none !important;
+}
+
+.footer-navigation a {
+
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+
+.footer-navigation a:hover {
+  transform: translateX(10px);
+  
+}
+
+@media (max-width: 767px) {
+.centralizar-container
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+    margin-left: 50px;
+}
+}
+a[href="https://hyllua-beauty.bagypro.com/body"] + .menu-dropdown.position-absolute {
+    width: 220px;
+}
+
+
+.price.total::after {
+    content: '\A'; /* Adicione uma quebra de linha após o elemento .price.total */
+    white-space: pre;
+}
+
+.banner-img-blog
+.banner img {
+    width: 65%;
+    max-width: 100%;
+    opacity: 0;
+}
+.blog-card-footer .date {
+    display: none;
+}
+
+.esconder-botao
+.btn.mt-3 {
+    display: none;
+}
+.blog-card {
+    border-radius: 20px;
+}
+.borda-img-blog
+.banner {
+    border-radius: 20px;
+}
+
+
+.img-seta-banner {
+    width: 15px; 
+    height: auto; 
+    margin-left: 5px; 
+    vertical-align: middle; 
+ transition: margin-left 0.3s ease;
+}
+
+.blog-card:hover .img-seta-banner {
+    margin-left: 15px; 
+    transition: margin-left 0.3s ease; 
+}
+
+.blog-card-separator {
+display: none;
+}
+
+.blog-card-title {
+    margin-bottom: 10px;
+}
+.margin-top-section
+.row.justify-content-center.mt-5{
+margin-top: 0 !important;
+}
+
+.blog-header time {
+        display: none;
+    }
+
+.tag-offer .tag-offer-bg {
+    animation: bg-selo 1s infinite linear;
+}
+
+
+
+@keyframes bg-selo 
+{
+0% {
+    color: white;
+}
+50% {
+    color: #CF7C71;
+}
+100% {
+    color: white;
+}
+
+}
+
+
+.offer-right {
+    display: flex;
+    position: fixed;
+    top: 50%;
+    transition: all .3s ease-in;
+    z-index: 99999999999;
+    right: -170px;
+}
+
+.offer-right__header {
+    border-radius: 0px 5px 5px 0;
+    z-index: 9;
+    background-color: #212529;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    padding: 20px 11px;
+    font-size: 18px;
+    height: 130px;
+    cursor: pointer;
+}
+
+.offer-right__header strong {
+    word-break: break-word;
+    line-height: 16px;
+    text-align: center;
+    font-family: var(--h1-ff);
+}
+
+.offer-right__main {
+    width: 170px;
+    background-color: #fff;
+    height: 130px;
+    z-index: 10;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 13px;
+    font-weight: 400;
+    border: 1px solid #8c8982;
+    padding: 10px 10px;
+}
+
+.offer-right__content {
+    display: flex;
+}
+
+.offer-right__main>div {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    line-height: 19px;
+}
+
+.offer-right__main .offer-right__text {
+    margin-bottom: 6px;
+}
+
+.offer-right__main .offer-right__text strong {
+    font-size: 19px;
+    color: #ffffff;
+    background: #212529;
+    padding: 0.5rem;
+    font-family: var(--h1-ff);
+}
+
+.offer-right.show-offer {
+    right: 0;
+}
+
+.offer-right__coupon .copy img {
+    object-fit: contain;
+    margin-left: 4px;
+}
+
+.offer-right__coupon .copy {
+    display: inline-flex;
+    color: #212529;
+    border: 2px dashed #212529;
+    padding: 0.5rem 1rem;
+}
+
+.offer-right__coupon strong {
+    font-family: var(--h1-ff);
+    font-size: 16px;
+    color: #212529;
+}
+
+.offer-right__main .alert-coupon {
+    text-transform: initial;
+    color: #8c8982;
+    font-weight: 600;
+    position: absolute;
+    bottom: -24px;
+    width: 100%;
+    right: 0;
+    display: block !important;
+    text-align: center;
+    opacity: 0;
+    animation-fill-mode: forwards !important;
+    transition: 1s all;
+}
+
+@-webkit-keyframes webkit-hideText {
+  to {
+    opacity: 0;
+  }
+}
+
+@keyframes hideText {
+  to {
+    opacity: 0;
+  }
+}
+  
+.offer-right__main .offer-right__coupon input {
+    position: absolute;
+    bottom: 0;
+    opacity: 0;
+    right: -300px;
+    overflow: hidden;
+}
+
+.offer-right__main .offer-right__coupon {
+    cursor: pointer;
+}
+
+.offer-right__coupon button {
+    background: transparent;
+    border: none !important;
+}
+
